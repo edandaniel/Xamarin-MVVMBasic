@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+              Title="Alunos"
+             x:Class="XF.MVVMBasic.View.AlunoView">
+    <ContentPage.Content>
+        <StackLayout Padding="20">
+            <ListView x:Name="listViewAlunos" 
+                  ItemsSource="{Binding Alunos}">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <ViewCell.ContextActions>
+                                <MenuItem Clicked="Delete_Clicked" Text="Delete" IsDestructive="true"/>
+                            </ViewCell.ContextActions>
+                            <ViewCell.View>
+                                <Label>
+                                    <Label.FormattedText>
+                                        <FormattedString>
+                                            <FormattedString.Spans>
+                                                <Span Text="{Binding Nome}" FontAttributes="Bold" TextColor="Blue"/>
+                                                <Span Text="&#x0a;RM - " />
+                                                <Span Text="{Binding RM}"  />
+                                                <Span Text="E-mail: " />
+                                                <Span Text="{Binding Email}" />
+                                            </FormattedString.Spans>
+                                        </FormattedString>
+                                    </Label.FormattedText>
+                                </Label>
+                            </ViewCell.View>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+            <Button Text="Adicionar Aluno" Command="{Binding OnAddAluno}"></Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
