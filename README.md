@@ -1,10 +1,10 @@
-Este trabalho contÈm:
-View Model e coleÁ„o para alunos
-P·gina para adicionar novos alunos
-Inclus„o de novos alunos
-Lista de Alunos
-ValidaÁ„o para inclus„o sempre de alunos com nome
-Funcionalidade de remoÁ„o de alunos
+Este trabalho cont√©m: 
+- View Model e cole√ß√£o para alunos 
+- P√°gina para adicionar novos alunos 
+- Inclus√£o de novos alunos 
+- Lista de Alunos 
+- Valida√ß√£o para inclus√£o sempre de alunos com nome 
+- Funcionalidade de remo√ß√£o de alunos 
 
 Integrantes
 RM 331785 - Daniel
