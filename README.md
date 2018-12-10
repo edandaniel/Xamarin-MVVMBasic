@@ -6,6 +6,6 @@ Este trabalho contém:
 - Validação para inclusão sempre de alunos com nome 
 - Funcionalidade de remoção de alunos 
 
-Integrantes
-RM 331785 - Daniel
-RM 331721 - Leandro
+Integrantes: 
+RM 331785 - Daniel 
+RM 331721 - Leandro 
